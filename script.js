@@ -3,7 +3,7 @@
 
 
 
-if (window.location.href == "file:///C:/Users/User/Desktop/thisaja/New%20folder/tickets.html") {
+if (window.location.href == "https://thisajayt.github.io/TicketsBooking/tickets.html") {
 
 
 // calender new
@@ -1305,7 +1305,7 @@ function time() {
 }
 
 
-if (window.location.href == "http://127.0.0.1:5500/details.html") {
+if (window.location.href == "https://thisajayt.github.io/TicketsBooking/details.html") {
 
   document.getElementById("date").innerText = localStorage.getItem("_");
   document.getElementById("time").innerText = localStorage.getItem("final-time");
@@ -1322,7 +1322,7 @@ if (window.location.href == "http://127.0.0.1:5500/details.html") {
 }
 
 
-if (window.location.href == "http://127.0.0.1:5500/confirmation.html") {
+if (window.location.href == "https://thisajayt.github.io/TicketsBooking/confirmation.html") {
   document.getElementById("date").innerText = localStorage.getItem("_");
   document.getElementById("time").innerText = localStorage.getItem("final-time");
   document.getElementById("duration").innerText = localStorage.getItem("final-hour");
@@ -1338,7 +1338,7 @@ if (window.location.href == "http://127.0.0.1:5500/confirmation.html") {
 }
 
 
-if (window.location.href == "http://127.0.0.1:5500/payment.html") {
+if (window.location.href == "https://thisajayt.github.io/TicketsBooking/payment.html") {
 
 
 document.getElementById("cc").innerHTML = `PAY ${localStorage.getItem("sum")}$`;
